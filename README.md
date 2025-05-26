@@ -12,7 +12,7 @@ Este projeto consiste em uma análise de dados utilizando a API pública da **Ma
 - `sqlite3`: para armazenamento local dos dados coletados.
 - `matplotlib` e `plotly.express`: para visualizações gráficas.
 - `regex`: para tratamento e limpeza de strings.
-- `dotenv`: instalação sugerida (embora pareça não estar sendo usada diretamente).
+- `dotenv`: instalação sugerida (caso seja utilizado arquivo .env).
 - `google.colab.userdata`: utilizado para acessar as chaves privadas/publicas de autenticação no ambiente do Google Colab.
 
 ## Autenticação
