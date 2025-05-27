@@ -1,16 +1,11 @@
 import requests
 import hashlib
+from dotenv import load_dotenv
 import os
 import time
 import pandas as pd
 import sqlite3
 import json
-from google.colab import userdata
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
-import numpy as np
-import regex as re
-import plotly.express as px
 from desafio import *
 from events import *
 from auxiliary import *
@@ -21,8 +16,8 @@ from series import *
 from stories import *
 ## Pegando as chaves
 
-PRIVATE_KEY = userdata.get("Private_Key")
-PUBLIC_KEY = userdata.get("Public_Key")
+PRIVATE_KEY = os.getenv("Private_Key")
+PUBLIC_KEY = os.getenv("Public_Key")
 
 ## Endpoints e Parâmetros
 
